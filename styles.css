@@ -1,0 +1,60 @@
+body {
+    font-family: Montserrat, sans-serif;
+}
+
+#page_div {
+    width: 90%;
+    margin: auto;
+    padding: 2rem;
+    border: 0.5rem solid rgba(33, 4, 4, 0.2);
+    border-radius: 0.4rem;
+}
+
+#web_app_title {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+#login_page_title {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-top: 4rem;
+    font-size: 1.5rem;   
+}
+
+#page_content {
+    width: 50%;
+    margin: auto;
+}
+
+.login_element, .navigation_element {
+    margin-top: 2rem;
+}
+
+input, button{
+    display: block;
+    width: 10rem;
+    margin: auto;
+    border-radius: 2rem;
+    filter: drop-shadow(0.25rem 0.25rem rgba(166, 152, 127, 0.46));
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+::placeholder {
+    text-align: center; 
+}
+
+a {
+    text-decoration: none;
+}
+
+/* styles for tablet devices (based on iPad air width) */
+@media screen and (max-width: 360px) {
+    
+}
